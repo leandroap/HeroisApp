@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_10">
+
+            <LinearLayout
+                android:id="@+id/llCotainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etUsuario"
+                    style="@style/editTextTop"
+                    android:drawableLeft="@drawable/ic_action_usuario"
+                    android:hint="@string/hint_usuario" />
+
+                <EditText
+                    android:id="@+id/etSenha"
+                    style="@style/editTextBottom"
+                    android:drawableLeft="@drawable/ic_action_password"
+                    android:hint="@string/hint_senha"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbManterConectado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_manter_conectado" />
+
+            <Button
+                android:id="@+id/btConectar"
+                style="@style/botao"
+                android:text="@string/label_botao_conectar" />
+
+            <TextView
+                android:id="@+id/tvCadastrar"
+                style="@style/link"
+                android:text="@string/label_cadastrar"
+                android:clickable="true"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

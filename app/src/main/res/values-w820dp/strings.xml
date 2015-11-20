@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_usuario">Usuário</string>
+    <string name="hint_senha">Senha</string>
+    <string name="label_manter_conectado">Manter Conectado</string>
+    <string name="label_botao_conectar">Conectar</string>
+    <string name="label_botao_cadastrar">Cadastrar</string>
+    <string name="toast_erro_gravar_usuario">Erro ao gravar o usuário</string>
+    <string name="toast_sucesso_salvar_usuario">Usuário cadastrado com sucesso!</string>
+    <string name="label_cadastrar">Cadastrar</string>
+    <string name="toast_login_invalido">Usuário ou senha invalido</string>
+    <string name="toast_erro_listar_herois">Não foi possível carregar os herois</string>
+</resources>
